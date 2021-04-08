@@ -1,0 +1,40 @@
+#container {
+  border: solid 3px rgb(90, 163, 223);
+  max-width: 40rem;
+  width: 80%;
+  margin-bottom: 2rem;
+
+  .title {
+    color: rgb(170, 213, 248);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  .textbox {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    input {
+      border-radius: 0.2rem;
+      border: none;
+      padding: 0.3rem 0.6rem;
+    }
+  }
+
+  .button {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    button {
+      margin-right: 1rem;
+      color: white;
+      background: steelblue;
+      padding: 0.3rem 1rem;
+      border: none;
+      border-radius: 0.3rem;
+    }
+  }
+}

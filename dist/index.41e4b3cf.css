@@ -1,0 +1,77 @@
+:root {
+  --color-primary: steelblue;
+  --color-secundary: rgb(38, 97, 146);
+  --size-text: 1.2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-secundary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  border: solid 3px #5aa3df;
+  max-width: 40rem;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+#container .title {
+  color: #aad5f8;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+#container .textbox {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+#container .textbox input {
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.3rem 0.6rem;
+}
+#container .button {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+#container .button button {
+  margin-right: 1rem;
+  color: white;
+  background: steelblue;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+#API {
+  max-width: 40rem;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+#API section {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#API section h1 {
+  color: white;
+}
+#API section h3 {
+  color: azure;
+}
+/*# sourceMappingURL=index.41e4b3cf.css.map */

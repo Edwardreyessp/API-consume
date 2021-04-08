@@ -1,0 +1,22 @@
+:root {
+  --color-primary: steelblue;
+  --color-secundary: rgb(38, 97, 146);
+  --size-text: 1.2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-secundary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}

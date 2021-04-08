@@ -1,0 +1,20 @@
+#API {
+  max-width: 40rem;
+  width: 80%;
+  margin-bottom: 2rem;
+
+  section {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      color: white;
+    }
+
+    h3 {
+      color: azure;
+    }
+  }
+}
